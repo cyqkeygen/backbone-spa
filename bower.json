@@ -1,0 +1,23 @@
+{
+  "name": "backbone-spa",
+  "description": "spa(backbone+nodejs+express)",
+  "main": "",
+  "authors": [
+    "Yuquan Chen <cyqsdy@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "spa",
+    "backbone",
+    "nodejs",
+    "express"
+  ],
+  "homepage": "https://github.com/cyqkeygen/backbone-spa",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
