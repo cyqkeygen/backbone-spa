@@ -7,7 +7,12 @@ require.config({
     "store": "store2/dist/store2"
   },
   shim: {
-    
+    backbone: {
+      // deps: ["underscore", "jquery"]
+    }
   }
 });
 
+require(['./main'],function(main){
+  main.initialize();
+})
