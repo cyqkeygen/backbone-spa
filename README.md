@@ -16,9 +16,9 @@ mkdir -p /public/javascripts/apps/home/views
 
 <!-- begin -->
 mkdir -p public/javascripts/apps
-touch /public/javascripts/require.config.js
-touch /public/javascripts/main.js
-touch /public/javascripts/router.js
+touch public/javascripts/require.config.js
+touch public/javascripts/main.js
+touch public/javascripts/router.js
 
 mkdir -p public/javascripts/apps/home
 touch public/javascripts/apps/home/app.js
