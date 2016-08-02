@@ -13,6 +13,6 @@ require.config({
   }
 });
 
-require(['./main'],function(main){
-  main.initialize();
+require(['./mainApp'],function(mainApp){
+  mainApp.initialize();
 })
