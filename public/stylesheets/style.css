@@ -8,26 +8,47 @@ a {
   color: #00B7FF;
 }
 
+#container{
+  position: absolute;
+  margin-left: 300px;
+  padding: 10px;
+  background-color: #eaeaea;
+  min-height: 100%;
+}
+/**** sidebar ****/
+
 #sidebar{
   position: fixed;
   width: 300px;
   min-height: 100%;
-  background-color: #eeeeee;
+  background-color: #ffffff;
 }
 
-#container{
-  margin-left: 300px;
+.sidebar-overlay{
+  width: 100%;
+  height: 200px;
+  background-color: #4d4d4d;
 }
 
 .sidebar-avatarDiv{
+  /* avatar circle */
   width: 100px;
   height: 100px;
   padding:6px;
-  background: #ffffff;
+  background-position: 50%;
   border-radius:100px;
+  background-image: linear-gradient(bottom, #4d4d4d 50%, #ffffff 50%);
+  background-image: -o-linear-gradient(bottom, #4d4d4d 50%, #ffffff 50%);
+  background-image: -moz-linear-gradient(bottom, #4d4d4d 50%, #ffffff 50%);
+  background-image: -webkit-linear-gradient(bottom, #4d4d4d 50%, #ffffff 50%);
+  background-image: -ms-linear-gradient(bottom, #4d4d4d 50%, #ffffff 50%);
+
   /*box-shadow: 0px 0px 2px rgba(0,0,0,0.4);*/
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
+
+  /* avatar lie in the middle of sidebar */
+  margin: -56px auto 0 auto;
 }
 
 .sidebar-avatarImage{

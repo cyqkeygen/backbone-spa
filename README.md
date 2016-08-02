@@ -1,4 +1,5 @@
 # express_backbone
+# menu --> home article life
 
 mkdir -p /public/javascripts/apps
 touch /public/javascripts/require.config.js
