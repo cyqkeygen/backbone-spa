@@ -1,6 +1,7 @@
 define(["backbone"], function(Backbone){
   var Article = Backbone.Model.extend({
-    urlRoot: "api/articles/:id",
+    urlRoot: "api/articles/",
+    idAttribute: '_id',
 
     default: {
       title:    "",
