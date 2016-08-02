@@ -7,7 +7,7 @@ define(["jquery", "backbone"], function($, Backbone){
     },
 
     home: function(){
-      $("#sidebar").append(123);
+      
     },
     articles: function(){
       
