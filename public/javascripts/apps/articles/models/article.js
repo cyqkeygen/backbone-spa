@@ -7,7 +7,7 @@ define(["backbone"], function(Backbone){
       title:    "",
       content:  "",
       time:     "",
-      tags:      [],
+      tags:     [],
     }
   });
 

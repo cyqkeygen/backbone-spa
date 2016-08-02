@@ -11,7 +11,7 @@ define([
       },
 
       home: function(){
-
+        homeApp.render();
       },
       articles: function(){
 
