@@ -32,11 +32,11 @@ a {
 
 .sidebar-avatarDiv{
   /* avatar circle */
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   padding:6px;
   background-position: 50%;
-  border-radius:100px;
+  border-radius:120px;
   background-image: linear-gradient(bottom, #4d4d4d 50%, #ffffff 50%);
   background-image: -o-linear-gradient(bottom, #4d4d4d 50%, #ffffff 50%);
   background-image: -moz-linear-gradient(bottom, #4d4d4d 50%, #ffffff 50%);
@@ -44,16 +44,16 @@ a {
   background-image: -ms-linear-gradient(bottom, #4d4d4d 50%, #ffffff 50%);
 
   /*box-shadow: 0px 0px 2px rgba(0,0,0,0.4);*/
-  -moz-border-radius: 100px;
-  -webkit-border-radius: 100px;
+  -moz-border-radius: 120px;
+  -webkit-border-radius: 120px;
 
   /* avatar lie in the middle of sidebar */
-  margin: -56px auto 0 auto;
+  margin: -66px auto 0 auto;
 }
 
 .sidebar-avatarImage{
-  width:100px;
-  height:100px;
+  width:120px;
+  height:120px;
   line-height: 0; /* remove line-height */ 
   display: inline-block;  /* circle wraps image */
   border-radius: 50%; /* relative value */
