@@ -1,6 +1,6 @@
 define(["jquery"], function($){
 
-  var viewManager = (function(view, el){
+  var viewManager = (function(){
     var currentView;
 
     var show = function(view, el){
