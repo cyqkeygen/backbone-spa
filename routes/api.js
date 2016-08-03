@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/items', function(req, res, next) {
-  var items = {
+  var items = [{
       title:    "item1",
       content:  "item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1",
       time:     "2016-06-01",
@@ -19,7 +19,7 @@ router.get('/items', function(req, res, next) {
       time:     "2016-06-02",
       tags:     ["nodejs", "express"],
     }]
-  res.json({success: true, message: '12'});
+  res.json({success: true, items: items});
 });
 
 router.get('/items/:id', function(req, res, next) {
