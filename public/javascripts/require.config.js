@@ -1,6 +1,7 @@
 require.config({
   paths: {
     "jquery":               "/jquery/dist/jquery",
+    "easing":               "/javascripts/core/jq.ease",
     "underscore":           "/underscore/underscore",
     "backbone":             "/backbone/backbone",
     "viewManager":          "viewManager",
@@ -20,11 +21,11 @@ require.config({
   },
   shim: {
     backbone: {
-      // deps: ["underscore", "jquery"]
+      deps: ["underscore", "jquery"]
     }
   }
 });
 
-require(['./mainApp'],function(mainApp){
+require(["jquery", "./mainApp"],function($, mainApp){
   mainApp.initialize();
 })

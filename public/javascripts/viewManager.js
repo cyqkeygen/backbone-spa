@@ -9,14 +9,14 @@ define(["jquery"], function($){
       });
     };
 
-    var disposeView(view, callback){
+    function disposeView(view, callback){
       if(view){
         _disposeView(view);
       }
       callback();
     };
 
-    var _disposeView(view){
+    function _disposeView(view){
       view.subviews && view.subviews.forEach(function(subview){
         _disposeView(subview);
       });
