@@ -1,8 +1,14 @@
-<div><%= title %></div>
-<div><%= time %></div>
-<div><img src='<%= image_url =>'></div>
-<div>
-  <% tags.forEach(function(tag){ %>
-    <span><%= tag %></span>
-  <%  }) %>
+<div class="article-item-header">
+  <span><a href="#"><%= title %></a></span>
+  <span class="article-item-header-time"><%= time %></span>
+</div>
+<div class="article-item-body">
+  <a href="<%= url %>">
+    <img src="<%= url %>" alt="" title></img>  
+  </a>
+</div>
+<div class="article-item-footer">
+  <% _.each(tags, function(tag){ %>
+    <span class="article-item-tag"><a src="#1"><%= tag %></a></span>
+  <% }) %>  
 </div>

@@ -1,8 +1,11 @@
-<div><%= title %></div>
-<div><%= time %></div>
-<div><img src='<%= image_url =>'></div>
-<div>
+<div class="article-item-header">
+  <span><a href="#"><%= title %></a></span>
+  <span class="article-item-time"><%= time %></span>
+</div>
+
+<div class="article-item-body"><%= content %></div>
+<div class="article-item-tags">
   <% tags.forEach(function(tag){ %>
-    <span><%= tag %></span>
+    <span class="article-item-tag"><%= tag %></span>
   <%  }) %>
 </div>

@@ -1,8 +1,10 @@
 define([
   "jquery",
   "backbone",
-  "viewManager"], 
-  function($, Backbone, viewManager){
+  "homeApp/app",
+  "articlesApp/app"
+  ],
+  function($, Backbone, homeApp, articlesApp){
     var Router = Backbone.Router.extend({
       routes: {
         "": "home",
@@ -11,10 +13,10 @@ define([
       },
 
       home: function(){
-        // homeApp.render();
+        homeApp.render();
       },
       articles: function(){
-
+        articlesApp.render();
       },
     });
 

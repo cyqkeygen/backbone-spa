@@ -3,9 +3,9 @@ define(["jquery"], function($){
   var viewManager = (function(){
     var currentView;
 
-    var show = function(view, el){
+    var show = function(view){
       disposeView(currentView, function(){
-        render(view, el);  
+        render(view);  
       });
     };
 
@@ -24,9 +24,9 @@ define(["jquery"], function($){
       view.remove();
     }
 
-    var render = function(view, el){
+    var render = function(view){
       currentView = view;
-      el.html(currentView);
+      $("#container").html(currentView.el);
       currentView.render();
     };
 
